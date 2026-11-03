@@ -35,6 +35,17 @@ Projets/
 └── ...
 ```
 
+## ✦ Aperçu
+
+Le STATE.md d'un projet, puis la reprise dans un nouveau chat :
+
+<p align="center">
+  <img src="assets/apercu-1.png" alt="Aperçu 1" width="49%">
+  <img src="assets/apercu-2.png" alt="Aperçu 2" width="49%">
+</p>
+
+<p align="center"><sub><i>Exemple fictif, à titre d'illustration.</i></sub></p>
+
 ## ✦ Le protocole
 
 1. **Début de session** : lire `CLAUDE.md` et `STATE.md`, rien d'autre.
