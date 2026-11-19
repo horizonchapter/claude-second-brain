@@ -46,10 +46,20 @@ Le STATE.md d'un projet, puis la reprise dans un nouveau chat :
 
 <p align="center"><sub><i>Exemple fictif, à titre d'illustration.</i></sub></p>
 
+## ✦ Débutant : sans code, en 3 gestes
+
+Pas besoin de terminal ni de Git.
+
+1. Dans Claude (application ou web), vérifie dans **Paramètres > Capacités** que la création de fichiers (exécution de code) est activée, puis importe [`passation-conversation.zip`](passation-conversation.zip) dans **Personnaliser > Skills > + > Créer un skill > Importer un skill** (*Customize > Skills > + > Create skill > Upload a skill*).
+2. Dans un projet Claude, colle le contenu de [`templates/CLAUDE.md`](templates/CLAUDE.md) dans les instructions du projet et remplace les `[À COMPLÉTER]`.
+3. Quand un chat devient long, tape « / » et choisis la passation (ou dis « relais ») : colle le bloc obtenu dans un nouveau chat du même projet.
+
+Pour un vrai second cerveau de notes (fiches sur toi, décisions, idées) créé pour toi, une question à la fois : le skill [memoire-aios](https://github.com/horizonchapter/memoire-aios), en mode débutant.
+
 ## ✦ Le protocole
 
 1. **Début de session** : lire `CLAUDE.md` et `STATE.md`, rien d'autre.
-2. **Pendant** : une décision importante ? Une ligne dans `DECISIONS.md`.
+2. **Pendant** : une décision importante ? Une ligne dans `DECISIONS.md`, au moment où elle est prise.
 3. **Fin de session** (« fin de session ») : réécrire `STATE.md`.
 4. **Règle du bouton** : Claude prépare, tu valides. Jamais de publication, paiement ou envoi sans accord explicite.
 
@@ -59,6 +69,8 @@ Résultat : peu de tokens dépensés pour reprendre le contexte, et zéro perte 
 
 - [`templates/`](templates) : `CLAUDE.md` commun, `STATE.md`, `DECISIONS.md` à copier.
 - [`skills/passation-conversation`](skills/passation-conversation) : skill qui condense une conversation longue en un bloc à coller dans un nouveau chat.
+- Pour créer un second cerveau complet, débutant ou avancé : [memoire-aios](https://github.com/horizonchapter/memoire-aios).
+- Skill de base conseillé : [clearmind](https://github.com/horizonchapter/clearmind).
 - Pour des PDF soignés : [pdf-luxe](https://github.com/horizonchapter/pdf-luxe).
 - Pour automatiser la veille et le suivi : [claude-routines](https://github.com/horizonchapter/claude-routines).
 - Pour déléguer à des modèles moins chers : [chef-employe](https://github.com/horizonchapter/chef-employe).

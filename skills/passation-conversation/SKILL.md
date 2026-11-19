@@ -1,6 +1,6 @@
 ---
 name: passation-conversation
-description: Condense une conversation longue en un bloc autonome à coller dans un nouveau chat, pour continuer sans perte de contexte et économiser des tokens. À utiliser quand l'utilisateur dit « passation », « nouveau chat » ou « context transfer ».
+description: Résume une longue conversation en un bloc à coller dans un nouveau chat, pour continuer sans rien perdre. À utiliser quand on dit passation, relais, nouveau chat ou context transfer.
 ---
 
 # Passation de conversation

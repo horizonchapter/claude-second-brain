@@ -8,6 +8,7 @@ Contexte : [À COMPLÉTER : ma situation, mes contraintes].
 ## Relais entre sessions (Claude chat et Claude Code)
 - Début de session : lis ce fichier, le CLAUDE.md du projet et son STATE.md. Ne lis le reste que si la tâche l'exige.
 - Décision importante : ajoute une ligne datée dans DECISIONS.md (on n'efface jamais).
+- Écris au moment où ça arrive (décision, correction, info durable), pas seulement en fin de session.
 - Fin de session (ou quand je dis « fin de session ») : RÉÉCRIS STATE.md (60 lignes max, on remplace, on n'empile pas).
 - Livrables à valider : dossier a_valider/. Références : dossier fiches/.
 - Un autre Claude doit pouvoir reprendre en lisant STATE.md seul.
