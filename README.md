@@ -85,6 +85,8 @@ cp claude-second-brain/templates/CLAUDE.md  ./Projets/CLAUDE.md
 
 Adapte ensuite les modèles à ta situation : ils contiennent des `[À COMPLÉTER]` aux endroits personnels.
 
+Pour la passation et la mémoire en temps réel, voir [memoire-relais](https://github.com/horizonchapter/memoire-relais).
+
 ## ✦ Licence
 
 MIT.
